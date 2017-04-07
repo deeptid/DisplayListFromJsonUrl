@@ -28,6 +28,8 @@
         android:layout_marginTop="1dip"
         android:layout_marginBottom="5dip"
         android:text="Description"
+        android:ellipsize="end"
+        android:maxLines="2"
         android:layout_marginLeft="10dp" />
 
 </RelativeLayout>
