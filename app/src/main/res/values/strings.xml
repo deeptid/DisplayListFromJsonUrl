@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SaltSide Assignment</string>
+    <string name="download_json_title">Display list from Json</string>
+    <string name="detail_page_title">Detail Page</string>
+    <string name="detail_page_desc">Detail Page Description</string>
+    <string name="or">Or</string>
+    <string name="paste_url">Paste your json url here</string>
+    <string name="json_title">Your Json list</string>
+
+
+</resources>

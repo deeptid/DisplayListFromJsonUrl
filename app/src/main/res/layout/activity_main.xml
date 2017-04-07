@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.deepti.saltsideassignment.MainActivity">
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/full_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/default_download_json_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/download_json_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/download_json_title"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/or"-->
+                <!--android:layout_width="37dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="@string/or"-->
+                <!--android:textSize="25sp"-->
+                <!--android:textStyle="normal" />-->
+            <!--<EditText-->
+                <!--android:id="@+id/paste_url"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="@string/paste_url"-->
+                <!--android:textSize="22sp"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:textStyle="normal"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_below="@+id/default_download_json_layout"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+
+            <Button
+                android:id="@+id/btn_fetch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_button"
+                android:minWidth="170dp"
+                android:text="fetch list"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_marginTop="94dp"
+                android:layout_below="@+id/paste_url"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>
